@@ -13,7 +13,7 @@ image = "n8nio/n8n:latest"
 N8N_HOST = "https://您txoin0811.fly.dev"
 N8N_PORT = "5678"
 N8N_BASIC_AUTH_ACTIVE = "true"
-
+N8N_LISTEN_ADDRESS = "0.0.0.0" # <-- 新增這一行
 [http_service]
 internal_port = 5678
 force_https = true
